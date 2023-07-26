@@ -27,6 +27,8 @@ Bar graph representing the number of images of each emotion:
 
 
 ![dataset](https://github.com/abhiraj072/Music_Recommendation_Through_Facial_Recognition/assets/116944692/e25069a2-2609-4728-86c3-900fc762f930)
+
+
 The dataset was seperated into two parts: a train dataset containing 80% of the images, and a validation dataset containing 20% of the images.
 
 ## **Convolutional Neural Networks**
@@ -42,6 +44,7 @@ Pooling layers are used to downsample the feature maps obtained from convolution
 #### **Fully Connected Layers**
 
 Following the convolutional and pooling layers, CNNs often include fully connected layers, which are traditional neural network layers. These layers connect every neuron in one layer to every neuron in the next layer. Fully connected layers learn high-level representations by combining the features extracted by the convolutional layers. The final fully connected layer produces the output, which can be used for classification, regression, or other tasks.
+
 ![238127907-e07d1fd2-0b02-4693-8d04-1921bbfae833](https://github.com/abhiraj072/Music_Recommendation_Through_Facial_Recognition/assets/116944692/08c86c1c-1b37-4b87-ae7a-0f8cfdcdf6e5)
 
 ##  Model Architecture
@@ -51,6 +54,7 @@ Following the convolutional and pooling layers, CNNs often include fully connect
 - Defined 3 fully connected layers, decreasing in number of units, till a 7-member layer is obtained, which is classified using a SoftMax activation.
 
 - Added “DropOut” layers – layers that remove hidden layers of nodes, improving the accuracy of the model.
+
 ![model](https://github.com/abhiraj072/Music_Recommendation_Through_Facial_Recognition/assets/116944692/a82d3e5a-7e13-4b83-a4b2-4c7936db2d6e)
 
  ###  Data Augumentation
@@ -60,6 +64,8 @@ Data augumentation is a techinque used to artificially increase the size of the 
 
   ## Result
  - The training accuracy peaked at around 72%, and the validation accuracy stagnated to around 64% by 40 epochs.
+
+
 ![accuracy](https://github.com/abhiraj072/Music_Recommendation_Through_Facial_Recognition/assets/116944692/b4bf0c36-a062-4b30-a11f-ec633f322676)
 
 
