@@ -27,7 +27,6 @@ Bar graph representing the number of images of each emotion:
 
 
 ![dataset](https://github.com/abhiraj072/Music_Recommendation_Through_Facial_Recognition/assets/116944692/e25069a2-2609-4728-86c3-900fc762f930)
-ssets/img/diode/dataset.png)
 The dataset was seperated into two parts: a train dataset containing 80% of the images, and a validation dataset containing 20% of the images.
 
 ## **Convolutional Neural Networks**
